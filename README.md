@@ -1,8 +1,6 @@
 # Exercise 4.24 Guest list from a file
 
-The exercise template comes ready with functionality for the guest list application. It checks whether names entered by the user are on the guest list.
-
-However, the program is missing the functionality needed for reading the guest list. Modify the program so that the names on the guest list are read from the file.
+Implement a program that checks whether names entered by the user are on the guest list. The input should stop when a user enters an empty string. Some example output is below.
 
 ```plaintext
 Name of the file:
