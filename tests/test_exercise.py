@@ -1,7 +1,9 @@
 import pytest
 import src.exercise
+import os
 
 def test_exercise():
+    os.chdir('src')
     input_values = ["names.txt","james","ada","leo",""]
     output = []
 
@@ -20,4 +22,4 @@ def test_exercise():
 
     assert output == ["Name of the file:","Enter names, an empty line quits.","The name is not on the list.",\
                       "Enter names, an empty line quits.","The name is on the list.",\
-                      "Enter names, an empty line quits.","The name is not on the list.","","Thank you!"]
+                      "Enter names, an empty line quits.","The name is not on the list.","Enter names, an empty line quits.","Thank you!"]
